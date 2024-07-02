@@ -123,6 +123,25 @@
         },
       });
 
+      var swiper = new Swiper(".colares", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        pagination: {
+          el: "#colares .swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          980: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          }
+        },
+      });
+
       var swiper = new Swiper(".testimonial-swiper", {
         loop: true,
         navigation: {

@@ -18,8 +18,11 @@
 
 }
 
-/* on mobile devices below 600px
- */
+.instagram-embed {
+  max-width: 540px; /* Ajuste a largura conforme necessário */
+  margin: auto; /* Centralizar o post */
+}
+
 @media screen and (max-width: 600px) {
     :root {
         --header-height : 100px;
@@ -27,18 +30,11 @@
     }
 }
 
-/* Fonts */
 :root {
     --body-font           : "Lato", sans-serif;
     --heading-font        : "Jost", sans-serif;
 }
 
-/*----------------------------------------------*/
-/* 1 GENERAL TYPOGRAPHY */
-/*----------------------------------------------*/
-
-/* 1.1 General Styles
-/*----------------------------------------------*/
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
